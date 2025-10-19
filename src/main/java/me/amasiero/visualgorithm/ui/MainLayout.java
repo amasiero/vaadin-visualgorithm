@@ -20,8 +20,8 @@ public class MainLayout extends AppLayout {
         title.getStyle().set("fontSize", "var(--lumo-font-size-l)");
 
         var bar = new HorizontalLayout(
-                new RouterLink("Sorting", SortingView.class)
-//                new RouterLink("Graph", GraphView.class)
+                new RouterLink("Sorting", SortingView.class),
+                new RouterLink("Graph", GraphView.class)
         );
         bar.setSpacing(true);
 
